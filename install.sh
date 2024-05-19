@@ -10,7 +10,7 @@ OS=$(uname -s)
 ARCH=$(uname -m)
 
 # Fetch the latest release data from GitHub
-RELEASE_JSON=$(curl -s https://api.github.com/repos/${APP_NAME}/${APP_NAME}/releases/latest)
+RELEASE_JSON=$(curl -s https://api.github.com/repos/${GITHUB_USER}/${APP_NAME}/releases/latest)
 
 # Determine the correct asset suffix based on OS and architecture
 case "$OS" in
