@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Define the application name
-APP_NAME="gotest"
+APP_NAME="starter-go"
 # Define the application name
-GITHUB_USER="cloud-native-skunkworks"
+GITHUB_USER="danielleitelima"
 
 # Detect OS and architecture
 OS=$(uname -s)
