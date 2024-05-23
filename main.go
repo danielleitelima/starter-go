@@ -2,8 +2,12 @@ package main
 
 import (
 	"fmt"
+
 	// It is possible to access a dependency1 using an alias.
 	customDependencyName "github.com/danielleitelima/starter-go-foundation/dependency1"
+
+	// You can use the dot operator to access the public content of a package without the package name.
+	. "github.com/danielleitelima/starter-go-foundation/dependency2"
 
 	"slices"
 )

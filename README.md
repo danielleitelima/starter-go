@@ -1,6 +1,6 @@
-# Starter-go
+# Starter: Go Foundation
 
-This is my first go project. The purpose here is to explore the language's features with no real intention of creating a useful application. Although the intention is not to have real functionality, the code found here will be very useful for future reference.
+This project is about testing the features of Golang. The focus will be in compiling and commenting the code for better understanding and easy reference.
 
 ## How to run
 
