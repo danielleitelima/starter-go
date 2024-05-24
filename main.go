@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"github.com/danielleitelima/starter-go-foundation/algorithm"
 
 	// It is possible to access a dependency1 using an alias.
 	customDependencyName "github.com/danielleitelima/starter-go-foundation/dependency1"
@@ -48,6 +49,16 @@ func main() {
 	// dependency1.privateVariable()
 
 	AnotherFunction()
+
+	mArray := []int{1, 2, 3, 4, 5, 6, 7, 8, 9}
+	targetValue := 9
+
+	fmt.Printf("Runs a binary search to find the index of the value %v in the array %v.\n", targetValue, mArray)
+
+	// Runs the binary search
+	fmt.Println("The target index is:", algorithm.GetTargetIndex(mArray, targetValue))
+
+	algorithm.GetTargetIndex(mArray, 5)
 }
 
 // You can pass	as many parameters as you want to a function, until you use a variable parameter.
